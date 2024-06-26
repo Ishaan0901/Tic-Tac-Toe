@@ -1,0 +1,80 @@
+*{margin:0px;
+padding:0px;
+border:border-box;}
+
+body{background-image: url("arena4.jpeg");
+    background-size: cover;
+    }
+
+.msg{font-size: 40px;
+    font-family:cursive;
+    text-align: center;
+    font-weight: 200px;
+    gap:2px;
+    color: white;
+    text-decoration: underline;
+}
+
+.hading{font-size: 90px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        gap:2px;
+        color: white;
+    }
+
+.game{width:70vb;
+    height:70vb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 1rem;
+    }
+
+.game_box{display: flex;
+        align-items: center;
+        justify-content: center;
+        height:75vb;}
+
+.box{height:20vb;
+    width:20vb;
+    border-radius: 10px;
+    border: none;
+    margin:3px;
+    font-size: 70px;
+    font-weight: 900px;
+    font-family: fantasy;
+    /* background-color: rgba(165, 42, 42, 0.993); */
+    background-color: rgb(216, 195, 195);
+}
+
+.red{color:red;}
+.green{color:green;}
+
+.box:hover{transform:scale(1.1);
+            border:3px solid white;}
+
+.r_btn{text-align: center;}
+
+#reset{margin-top: 10px;
+        margin-bottom: 30px;
+        height:8vb;
+        width:40vb;
+        font-size: 30px;
+        font-family: fantasy;
+        border-radius: 10px;
+        border: 2px solid black;
+}
+
+.new{margin-top: 10px;
+    margin-bottom: 30px;
+    height:8vb;
+    width:40vb;
+    font-size: 30px;
+    font-family: fantasy;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.hide{display: none;}
